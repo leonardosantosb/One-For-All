@@ -1,5 +1,5 @@
 SELECT 
-	count(distinct(C.nome_cancoes)) AS cancoes, count(distinct(AR.nome_artista)) AS artistas, count(distinct(A.nome_album)) AS albuns 
+	COUNT(DISTINCT(C.nome_cancoes)) AS cancoes, COUNT(DISTINCT(AR.nome_artista)) AS artistas, COUNT(DISTINCT(A.nome_album)) AS albuns 
 FROM 
 	SpotifyClone.Cancoes AS C 
 		INNER JOIN 
