@@ -6,4 +6,4 @@ FROM
 		INNER JOIN 
 	SpotifyClone.historico AS H ON U.pessoa_usuaria_id = H.pessoa_usuaria_id
     GROUP BY U.pessoa_usuaria_id
-    ORDER BY pessoa_usuaria asc;
+    ORDER BY pessoa_usuaria ASC;

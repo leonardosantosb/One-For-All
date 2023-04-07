@@ -6,7 +6,7 @@ FROM
 		INNER JOIN 
 	SpotifyClone.historico AS H ON U.pessoa_usuaria_id = H.pessoa_usuaria_id
 		INNER JOIN 
-	SpotifyClone.Cancoes AS C on H.idCancoes = C.idCancoes
+	SpotifyClone.Cancoes AS C ON H.idCancoes = C.idCancoes
 	
     GROUP BY U.pessoa_usuaria_id
     ORDER BY pessoa_usuaria asc;

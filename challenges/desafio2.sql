@@ -5,4 +5,4 @@ FROM
 		INNER JOIN 
 	SpotifyClone.Album AS A ON C.album_id = A.album_id
 		INNER JOIN 
-	SpotifyClone.Artista AS AR on A.idArtista = AR.idArtista
+	SpotifyClone.Artista AS AR ON A.idArtista = AR.idArtista
